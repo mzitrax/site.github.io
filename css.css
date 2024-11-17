@@ -1,0 +1,175 @@
+body {
+    background-image: url(images/gradient-gray-abstract-background-blurred-smooth-gray-color-wallpape-free-vector.jpg);
+    background-size: cover; 
+    background-position: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Современный шрифт */
+    background-color: #646363; /* Фоновый цвет */
+    margin: 0; /* Убираем стандартные отступы */
+    padding: 20px; /* Внутренние отступы для страницы */
+}
+
+.navbar {
+    background-color: #000000; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    display: block; 
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    padding: 16px 30px; 
+    text-decoration: none; 
+    margin: 0 10px; /* Исправлено: убрано лишнее пространство */
+    transition: background-color 0.3s, transform 0.3s; /* Добавлено плавное изменение фона */
+}
+
+.navbar a:hover {
+    background-color: #7608b6; /* Цвет фона при наведении */
+    color: rgb(0, 0, 0);
+    transform: scale(1.1); /* Увеличение кнопки на 10% при наведении */
+}
+
+h1, h3, h5 {
+    text-align: center; /* Центрирование заголовков */
+    color: #6009b1; /* Цвет текста заголовков */
+    font-family: 'Times New Roman', Times, serif; /* Шрифт заголовков */
+}
+
+h1 {
+    font-size: 2em; /* Размер заголовка h1 */
+}
+
+h3 {
+    font-size: 1.5em; /* Размер заголовка h3 */
+}
+
+h5 {
+    font-size: 1.5em; /* Размер заголовка h5 */
+}
+
+.text, p {
+    color: #000000; /* Цвет текста */
+    line-height: 1.6; /* Высота строки */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+.text {
+    font-size: 1.5em; /* Размер заголовка */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+p {
+    font-size: 1em; /* Размер текста */
+    font-weight: bolder; /* Жирный шрифт */
+}
+
+.image {
+    max-width: 100%; /* Адаптивная ширина изображения */
+    height: auto; /* Автоматическая высота */
+    border-radius: 4px; /* Скругление углов изображения */
+    margin-top: 10px; /* Отступ сверху */
+}
+
+hr {
+    border: 0; /* Убираем стандартные границы */
+    height: 1px; /* Высота линии */
+    background: #000000; /* Цвет линии */
+    margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+footer {
+    text-align: center; /* Центрирование текста */
+    margin-top: 20px; /* Отступ сверху */
+    font-size: 0.7em; /* Размер шрифта */
+    color: #070707; /* Цвет текста */
+}
+
+.header {
+    text-align: center; /* Центрирование текста */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+.header-image {
+    margin-top: 10px; /* Отступ сверху для изображения */
+}
+
+.nav-link {
+    display: inline-block; /* Чтобы элемент можно было увеличить */
+    padding: 10px 15px; /* Добавьте отступы для кнопок */
+    text-decoration: none; /* Уберите подчеркивание */
+    color: black; /* Цвет текста */
+    transition: transform 0.3s ease; /* Параметры анимации */
+}
+
+.nav-link:hover {
+    transform: scale(1.1); /* Увеличение кнопки на 10% при наведении */
+}
+
+.news-card {
+    background-color: #686868; /* Белый фон для карточки */
+    border: 1px solid #6009b1; /* Синяя обводка */
+    border-radius: 8px; /* Скругленные углы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+    padding: 20px; /* Внутренние отступы */
+    margin: 20px 0; /* Внешние отступы */
+}
+
+.news-card h5 {
+    font-size: 1.5em; /* Размер заголовка */
+    color: #6009b1; /* Цвет заголовка */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+.news-card p {
+    font-size: 1em; /* Размер текста */
+    color: #000000; /* Цвет текста */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+.news-image {
+    width: 100%; /* Уменьшенная ширина (80% от родительского элемента) */
+    max-width: 300px; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border-radius: 5px; /* Скругленные углы для изображения */
+    margin-top: 10px; /* Отступ сверху */
+    display: block; /* Отображение как блочный элемент для центрирования */
+    margin-left: auto; /* Центрирование изображения */
+    margin-right: auto; /* Центрирование изображения */
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px; /* Отступ сверху от основного контента */
+    position: relative; /* Чтобы footer не перекрывал контент */
+    clear: both; /* Убедитесь, что footer находится ниже всех элементов */
+}
+
+footer p {
+    margin: 0; /* Убираем отступы по умолчанию */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #020202;
+}
